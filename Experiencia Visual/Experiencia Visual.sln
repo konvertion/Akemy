@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiencia Visual", "Experiencia Visual.csproj", "{1DE7AA2D-D49D-B983-651E-00ED7FA18D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiencia Visual.Editor", "Experiencia Visual.Editor.csproj", "{EFADC1FF-BCE2-56D5-CDA2-3A46DCB2BB97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE7AA2D-D49D-B983-651E-00ED7FA18D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE7AA2D-D49D-B983-651E-00ED7FA18D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE7AA2D-D49D-B983-651E-00ED7FA18D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE7AA2D-D49D-B983-651E-00ED7FA18D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFADC1FF-BCE2-56D5-CDA2-3A46DCB2BB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFADC1FF-BCE2-56D5-CDA2-3A46DCB2BB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFADC1FF-BCE2-56D5-CDA2-3A46DCB2BB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFADC1FF-BCE2-56D5-CDA2-3A46DCB2BB97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
