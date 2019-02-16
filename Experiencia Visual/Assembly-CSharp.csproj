@@ -2,20 +2,18 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
-    <ProjectGuid>{2CDC3047-BC1A-AB48-B695-7E516B898FCE}</ProjectGuid>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F7005E3C-C3B7-05D7-C307-DE1BC937D4BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -63,20 +61,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Escenarios\partícula\Control.cs" />
+    <Compile Include="Assets\test.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -280,13 +279,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/proyecto/Proyecto_ConEscenario/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/JuanCamiloVargasAgui/Desktop/Universidad/semestre 5/Taller 5/Ingeniería/repoitorio/Akemy/Experiencia Visual/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
