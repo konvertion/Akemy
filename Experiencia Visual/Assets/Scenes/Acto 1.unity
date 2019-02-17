@@ -997,7 +997,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 164
+    maxNumParticles: 5
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -9926,8 +9926,8 @@ GameObject:
   m_Component:
   - component: {fileID: 854978286}
   - component: {fileID: 854978285}
-  - component: {fileID: 854978284}
   - component: {fileID: 854978287}
+  - component: {fileID: 854978284}
   m_Layer: 0
   m_Name: AKEMY
   m_TagString: Untagged
@@ -9991,7 +9991,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c9a8d277b11527a4c90a260f4c07dc78, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a90922380e63ea04697709c296a3f63b, type: 3}
   m_Color: {r: 0.5849056, g: 0.52696687, b: 0.52696687, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10010,7 +10010,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854978283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.72, y: -1.41, z: -3.6}
+  m_LocalPosition: {x: -35.13, y: -1.41, z: -3.6}
   m_LocalScale: {x: 0.745, y: 0.713, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10904,7 +10904,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 164
+    maxNumParticles: 5
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -15681,7 +15681,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 164
+    maxNumParticles: 5
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -20215,8 +20215,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1939089344}
   - component: {fileID: 1939089343}
-  - component: {fileID: 1939089345}
   - component: {fileID: 1939089342}
+  - component: {fileID: 1939089345}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -20297,7 +20297,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939089341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6806327d20109a54ba7242ef089f688a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ece0c431991f8a41a870587301967d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.02
