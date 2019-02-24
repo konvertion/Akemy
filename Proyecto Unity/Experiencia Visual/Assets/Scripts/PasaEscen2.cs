@@ -9,8 +9,14 @@ public class PasaEscen2 : MonoBehaviour
     {
 
     }
-    void OnBecameInvisible()
+    /* void OnBecameInvisible()
     {
+        SceneManager.LoadScene("Acto 2");
+    }*/
+
+    public void CambiarEscena()
+    {
+
         SceneManager.LoadScene("Acto 2");
     }
 }
