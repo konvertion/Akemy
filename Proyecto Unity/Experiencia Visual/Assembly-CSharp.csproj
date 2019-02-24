@@ -2,18 +2,20 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{F7005E3C-C3B7-05D7-C307-DE1BC937D4BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -88,6 +90,9 @@
     <Compile Include="Assets\Scripts\caminata1.cs" />
     <Compile Include="Assets\Scripts\Control.cs" />
     <Compile Include="Assets\Scripts\LimiteCamara.cs" />
+    <Compile Include="Assets\Scripts\PasaEscen2.cs" />
+    <Compile Include="Assets\Scripts\pasaescena.cs" />
+    <Compile Include="Assets\Scripts\PasaEscena3.cs" />
     <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />
     <None Include="Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader" />
     <None Include="Assets\Anima2D\Version.txt" />
