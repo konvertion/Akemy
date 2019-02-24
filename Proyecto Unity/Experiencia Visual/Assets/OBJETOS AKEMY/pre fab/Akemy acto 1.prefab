@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8526895447101846265}
   - component: {fileID: 7360675067824232119}
   - component: {fileID: 2216382746615849990}
+  - component: {fileID: 5983470057675883674}
+  - component: {fileID: 6522899513281739166}
   m_Layer: 0
   m_Name: Akemy acto 1
   m_TagString: Untagged
@@ -99,3 +101,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5983470057675883674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629411510766869670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6806327d20109a54ba7242ef089f688a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+--- !u!114 &6522899513281739166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629411510766869670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df65dc2d4a90b748adc0838dc1863b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
