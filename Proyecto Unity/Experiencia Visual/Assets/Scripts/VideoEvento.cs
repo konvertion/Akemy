@@ -9,6 +9,15 @@ public class VideoEvento : MonoBehaviour
     [SerializeField] PasaEscen2 pasaescena2;
     [SerializeField] float duracion;
     float time;
+    private AudioSource musicPlayer;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        musicPlayer = Camera.main.gameObject.GetComponent<AudioSource>();
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,17 +25,15 @@ public class VideoEvento : MonoBehaviour
         if (!Camera.main.gameObject.GetComponent<VideoPlayer>().isPlaying)
         {
             Camera.main.gameObject.GetComponent<VideoPlayer>().clip=video;
+
             Camera.main.gameObject.GetComponent<VideoPlayer>().Play();
+
+            musicPlayer.Stop();
         }
         
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+   
     
     // Update is called once per frame
     void Update()
