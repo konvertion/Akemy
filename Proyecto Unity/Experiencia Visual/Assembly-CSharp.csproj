@@ -84,7 +84,6 @@
     <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
-    <Compile Include="Assets\Scripts\Cambio de Escena.cs" />
     <Compile Include="Assets\Scripts\caminata.cs" />
     <Compile Include="Assets\Scripts\caminata1.cs" />
     <Compile Include="Assets\Scripts\Control.cs" />
