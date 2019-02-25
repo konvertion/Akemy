@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Normal
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Head
+    localPosition: {x: 2.0811574, y: -1.6385214, z: -0.25779685}
+    localRotation: {x: -0, y: -0, z: 0.712443, w: 0.7017301}
+    localScale: {x: 2.6348014, y: 2.6348014, z: 2.6348}
+  - path: Head/OrejaIzq
+    localPosition: {x: 0.9902491, y: 0.45139992, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.018173693, w: 0.9998349}
+    localScale: {x: 1.1171566, y: 1, z: 1}
+  - path: Head/OrejaDer
+    localPosition: {x: 0.9750627, y: -0.5386931, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.0069270656, w: 0.999976}
+    localScale: {x: 1.0791479, y: 1, z: 1}
